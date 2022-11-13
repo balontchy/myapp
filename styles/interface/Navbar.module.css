@@ -21,3 +21,9 @@
     display: block;
     position: absolute;
 }
+
+
+@media all and (max-width: 990px) {
+    .link{display: none;}
+    .espace{display: flex;}
+}

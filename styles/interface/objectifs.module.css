@@ -1,0 +1,266 @@
+/* sectionOne start */
+.sectionOne{
+    height: 100%;
+    display: grid;
+grid-template-columns: 40% auto;
+    grid-template-rows: 50% 100% ;
+
+    grid-template-areas: 
+    "text       image" 
+    "button   image" 
+    ;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: text;
+        font-family: 'Comfortaa', cursive;
+    text-align: center;
+
+}
+.text h3 {
+    font-size: 400%;
+    color:#c4e3ff
+}
+.text h2{
+    font-size: 50px;
+    color: white;
+
+}
+.text p{
+    font-size: 18px;
+    width: 80%;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    grid-area: button;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    grid-area: image;
+}
+/* sectionOne end  */
+
+
+/* sectionTwo start */
+
+.sectionTwo{
+    height: 100%;
+    display: grid;
+grid-template-columns: auto 500px;
+    grid-template-rows: 50% 100% ;
+
+    grid-template-areas: 
+    "image2  text2" 
+    "image2  text2" 
+    "image2  text2" 
+    ;
+}
+
+
+.image2{
+    grid-area: image2;
+    display: flex;
+    margin-left: 50%;
+
+
+}
+.text2 {
+    grid-area: text2;
+    margin:30px 10%;
+    text-align: center;
+
+
+}
+.text2 h3{
+    color:#33241c ;
+}
+.text2 p {
+    font-family: 'Comfortaa', cursive;
+    color:#b96f46 ;
+}
+
+
+
+/* section three */
+
+.sectionThree {
+    height: 100%;
+    gap:30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+    grid-template-areas:
+        "text3 image6"
+        "image4  text5"
+    ;
+}
+
+.text3 {
+    grid-area: text3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        margin: 30px;
+    background-color: whitesmoke;
+    padding: 30px;
+    opacity: 0.5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+.image4 {
+    grid-area: image4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;  
+
+    }
+    
+    .text5 {
+        grid-area: text5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: whitesmoke;
+        margin: 30px;
+        padding: 30px;
+        opacity: 0.5;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
+    
+    
+    .image6 {
+        grid-area: image6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+    
+    .imagelink {
+
+                  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    /* footer */
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50vh;
+        padding: 90px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 950px) {
+    /* section */
+    .sectionOne{
+        display: grid;
+    grid-template-columns: auto;
+        grid-template-rows: auto ;
+    
+        grid-template-areas: 
+        "text"
+        "image" 
+        "image" 
+        "button"   
+        ;
+    }
+    .text h3 {
+    font-size: 300%;
+    text-align: center;
+    color:#c4e3ff
+}
+    .text h2 {
+    font-size: 250%;
+    text-align: center;
+    color:white
+}
+.sectionTwo{
+    height: 100%;
+    display: grid;
+grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+
+    grid-template-areas: 
+     "text2" 
+    "image2" 
+    ;
+}
+
+.image2{
+    grid-area: image2;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+
+
+}
+.text2{
+    grid-area: text2;
+       display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%; 
+    margin: auto;
+    text-align: center;
+}
+
+.sectionThree {
+    height: 100%;
+    gap:30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+    grid-template-areas:
+        "text3"
+        "image6"
+        "text5"
+        "image4"  
+    ;
+}
+}
+
+
+/* section three */
+
+

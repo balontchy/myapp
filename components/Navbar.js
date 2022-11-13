@@ -35,7 +35,6 @@ const NavbarItem = (props) => {
     <Link className={style.link} href={'/comment_ca_marche'} onClick={() =>setOpen(!open)}>
       Comment ca marche?
       {open === true ?props.children : ''}
-      {console.log(open)}
     </Link>
   )
 }
