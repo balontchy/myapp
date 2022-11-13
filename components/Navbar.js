@@ -17,7 +17,8 @@ const Navbar = () => {
           {/* <DropDownMenu /> */}
         </NavbarItem>
         <Link className={style.link} href={'/inscription'} >Inscription</Link>
-        <Link className={`${style.link} ${style.espace}`} href={'/mon_espace'} >Mon espace</Link>
+        <Link className={`${style.link} ${style.espace}`} href={'/objectifs'} >Mon espace</Link>
+
       </Navbarr>
     </div>
   )
