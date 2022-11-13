@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+
+}
+.logo h2{
+    font-weight: 500;
+}
+.link{
+    margin: 0px 20px ;
+    font-weight: 500;
+}
+.espace{
+    border: 1px solid #333;
+    padding: 0px 20px ;
+    border-radius: 6px;
+}
+.drop{
+    display: block;
+    position: absolute;
+}
