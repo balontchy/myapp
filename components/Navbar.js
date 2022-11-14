@@ -5,7 +5,7 @@ import style from '../styles/interface/Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <div className={style.container+ " navbar"}>
+    <div className={style.container + " navbar"}>
       <div className={style.logo}>
         <h3>BUSINESSPALACE</h3>
       </div>

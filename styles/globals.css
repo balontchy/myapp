@@ -7,11 +7,10 @@ body {
 }
 
 .container{
-  height: 1vh;
   padding: 20px;
   display: grid;
-  grid-template-columns:  100vh ;
-  grid-template-rows: 50vh 100vh 500px;
+  grid-template-columns: 100% 100% 100% 100% 100%;
+  grid-template-rows: 50px auto auto auto 500px;
   grid-template-areas: 
   "nav nav nav nav nav"
   "one one one one one"
@@ -54,30 +53,27 @@ a {
 * {
   box-sizing: border-box;
 }
-.button-white{
+.button-white {
   display: flex;
   background-color: whitesmoke;
   justify-content: center;
-  align-items: center;
   color: purple;
   border-radius: 8px;
   font-weight: bold;
-  margin: 0px 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 200px;
-  }
+  padding: 0px 20px;
+  margin:0px 10px;
+}
   
   .button-purple {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: purple;
     color: white;
     border-radius: 8px;
-  font-weight: bold;
-    margin: 0px 10px;
+    font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 200px;
+  padding: 0px 20px;
   }
   
   /* @media (prefers-color-scheme: dark) {
